@@ -1,0 +1,64 @@
+.navbar {
+	position: fixed;
+	width: 100%;
+	background-color: #ffffff;
+	font-family: 'Spartan', sans-serif;
+}
+
+#landing {
+	text-align: center;
+	font-family: 'Spartan', sans-serif;
+}
+
+#neilPhoto {
+	height: 280px;
+	width: 280px;
+	border-radius: 80px;
+	display: inline-block;
+}
+
+#nameSlogan {
+	margin: auto;
+}
+
+#about {
+	font-family: 'Spartan', sans-serif;		
+}
+
+#aboutPhoto {
+	border-radius: 80px;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+#about {
+    background-color: maroon;	
+}
+
+#intro {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: 'Spartan', sans-serif;	
+}
+
+#contact {
+    background-color: maroon;
+}
+
+#email {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: 'Spartan', sans-serif;	
+}
+
+#number {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: 'Spartan', sans-serif;	
+}

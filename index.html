@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Neil Verano</title>
+
+        <!-- external css -->
+        <link rel="stylesheet" href="./assets/style.css">
+
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+    	<!-- google font - spartan -->
+		<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Neil Verano</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#neilNav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+                <div id="neilNav" class="collapse navbar-collapse">    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tech" class="nav-link">Tech Stack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>   
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Home</a>
+                        <a href="#about" class="dropdown-item">About</a>
+                        <a href="#tech" class="dropdown-item">Tech Stack</a>
+                        <a href="#contact" class="dropdown-item">Contact</a>
+                    </div>                         
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+		<!-- landing section -->
+		<section id="landing" class="container-fluid py-5">
+			<div class="row">
+				<div class="col-12">
+					<div>
+						<img src="./assets/neil.jpg" id="neilPhoto" class="mt-5" alt="...">
+					</div>
+				</div>
+				<div id="nameSlogan" class="text-center">
+					<h2 class="mt-5">Full Stack Developer</h2>
+				</div>
+			</div>
+		</section>
+
+
+        <!-- about section -->
+        <section id="about" class="container-fluid py-5">
+            <div class="row">
+                <div id="intro" class="col-8">
+					<div>
+						<h2 class="text-center text-white mt-5">Hi, I'm Neil</h2>
+					</div>
+					<div>
+                        <p class="text-white">I was born and raised in Jersey City, New Jersey but spent most of 2020 living in the Philippines learning Full Stack Web Development. I'm a career-changer with a background in Operations Management looking to transition into the tech industry. Besides my passion for tech, I'm also a triathlon and cycling enthusiast who captained the Rutgers University Triathlon Team back in my college days.</p>
+					</div>
+				</div>
+            </div>
+        </section>
+
+
+        <!-- tech stack section -->
+        <section id="tech" class="container-fluid py-5">
+			<h2 class="text-center mt-5 mb-5">Tech Stack</h2>
+			<div class="row">
+				<div class="col-8 col-md-3 mx-auto">
+					<div class="card my-3">
+						<img src="./assets/html5logo.png"class="img-fluid" alt="...">
+					</div>
+				</div>
+				<div class="col-8 col-md-3 mx-auto">
+					<div class="card my-3">
+						<img src="./assets/css3logo.png"class="img-fluid" alt="...">
+					</div>
+				</div>					
+				<div class="col-8 col-md-3 mx-auto">
+					<div class="card my-3">
+						<img src="./assets/bootstrap4logo.png"class="img-fluid" alt="...">
+					</div>
+				</div>
+            </div>
+            <div class="row">
+				<div class="col-8 col-md-3 mx-auto">
+					<div class="card my-3">
+						<img src="./assets/javascript.png"class="img-fluid" alt="...">
+					</div>
+				</div>
+				<div class="col-8 col-md-3 mx-auto">
+					<div class="card my-3">
+						<img src="./assets/express.png"class="img-fluid" alt="...">
+					</div>
+				</div>					
+				<div class="col-8 col-md-3 mx-auto">
+					<div class="card my-3">
+						<img src="./assets/react.png"class="img-fluid" alt="...">
+					</div>
+				</div>
+            </div>
+            <div class="row">
+				<div class="col-8 col-md-3 mx-auto">
+					<div class="card my-3">
+						<img src="./assets/node.png"class="img-fluid" alt="...">
+					</div>
+				</div>
+				<div class="col-8 col-md-3 mx-auto">
+					<div class="card my-3">
+						<img src="./assets/next.png"class="img-fluid" alt="...">
+					</div>
+				</div>					
+				<div class="col-8 col-md-3 mx-auto">
+					<div class="card my-3">
+						<img src="./assets/mongodb.png"class="img-fluid" alt="...">
+					</div>
+				</div>
+			</div>
+		</section>   
+
+
+        <!-- contact section -->
+        <section id="contact" class="container-fluid py-5">
+            <h2 class="text-center text-white mb-5 mt-2">Contact</h2>
+            <div class="row">
+                <div id="email" class="col-12 mx-auto">
+                    <p class="text-white">neilverano@gmail.com</p>
+                </div>
+                <div id="number" class="col-12 mx-auto">
+                    <p class="text-white">(201) 904 6418</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+		<!-- Bootstrap JS dependencies -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>
